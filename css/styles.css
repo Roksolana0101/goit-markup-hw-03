@@ -250,7 +250,7 @@ font-weight: 900;
     display: flex;
     flex-wrap: wrap;
     gap: var(--main-gap);
-    flex-basis: calc((100% - var(var(--main-gap)) * (var(var(--work-cards)) - 1)) / var(var(--work-cards)));
+    flex-basis: calc((100% - var(--main-gap) * (var(--work-cards) - 1)) / var(--work-cards));
   }
   img {display: block;}
   .team-card {
@@ -260,7 +260,7 @@ font-weight: 900;
    {display: flex;
     flex-wrap: wrap;
     gap: var(--main-gap);
-    flex-basis: calc((100% - var(var(var(--main-gap))) * (var(var(--teams-item)) - 1)) / var(var(--teams-item)));}
+    flex-basis: calc((100% - var(--main-gap) * (var(--teams-item) - 1)) / var(--teams-item));}
   .team-card-item {background-color: #ffffff;}
     .team-wrapper {
     border-top: none;
@@ -297,7 +297,7 @@ text-align: center;}
 .gallery-list {display: flex;
     flex-wrap: wrap;
     gap: var(--main-gap);
-    flex-basis: calc((100% - var(var(--main-gap)) * (var(var(--portfolio-item)) - 1)) / var(var(--portfolio-item)));}
+    flex-basis: calc((100% - var(--main-gap) * (var(--portfolio-item) - 1)) / var(--portfolio-item));}
 .wrapper {
     border-bottom: 1px solid #EEEEEE;
     border-top:none ;
