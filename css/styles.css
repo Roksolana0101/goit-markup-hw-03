@@ -244,6 +244,9 @@ gap: var(--main-gap);}
     display: flex;
     gap: var(--main-gap);
   }
+  .team-wrapper {
+    padding-top: 30px;
+padding-bottom: 30px;}
   .team-name {
     color: var(--main-txt-cl);
     font-weight: 500;
@@ -258,6 +261,10 @@ gap: var(--main-gap);}
         letter-spacing: 0.03em;}
         /*Portfolio*/
 .portfolio-nav-button {background-color: #F5F4FA;}
+.wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .card-title {
     color: var(--main-txt-cl);
     font-weight: 700;
