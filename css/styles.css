@@ -326,7 +326,8 @@ text-align: center;}
         letter-spacing: 0.03em;
 }
 /* footer styles*/
-.footer {background-color: var(--dark-bg-cl) ;}
+.footer {background-color: var(--dark-bg-cl) ;
+padding: 60px 0;}
 .logo-footer {margin-bottom: 20px;
 }
 .footer-mail,
