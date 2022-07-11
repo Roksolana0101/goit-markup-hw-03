@@ -336,14 +336,20 @@ padding: 60px 0;}
     display: block;
     margin-bottom: 20px;
 }
-.footer-mail {margin-bottom: 9px;}
+
 .footer-mail,
 .footer-phone {
+    display: block;
     color: rgba(255, 255, 255, 0.6);
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
+
+    width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+    margin-bottom: 9px;
 }
 
 .footer-mail:hover,
