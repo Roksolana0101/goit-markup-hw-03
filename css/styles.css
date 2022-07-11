@@ -328,8 +328,11 @@ text-align: center;}
 /* footer styles*/
 .footer {background-color: var(--dark-bg-cl) ;
 padding: 60px 0;}
-.logo-footer {margin-bottom: 20px;
+.logo-footer {
+    display: block;
+    margin-bottom: 20px;
 }
+.footer-mail {margin-bottom: 9px;}
 .footer-mail,
 .footer-phone {
     color: rgba(255, 255, 255, 0.6);
@@ -351,4 +354,5 @@ padding: 60px 0;}
     font-size: 14px;
      line-height: calc(24/14);
     letter-spacing: 0.03em;
+    margin-bottom: 8px;
 }
