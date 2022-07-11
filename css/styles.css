@@ -140,7 +140,7 @@ p {
     padding-top: 94px;
     padding-bottom: 94px;}
 /*hero styles*/
-.hero-section {background-color: var(--dark-bg-cl);}
+.hero-section {background-color: var(--dark-bg-cl); padding: 200px 0;}
 .hero-container
 {
     display: flex;
