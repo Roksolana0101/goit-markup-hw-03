@@ -261,12 +261,14 @@ font-weight: 900;
     flex-wrap: wrap;
     gap: var(--main-gap);
     flex-basis: calc((100% - var(var(var(--main-gap))) * (var(var(--teams-item)) - 1)) / var(var(--teams-item)));}
-  .team-wrapper {
+  .team-card-item {background-color: #ffffff;}
+    .team-wrapper {
     border-top: none;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 5px;
-    padding-right: 5px;}
+    padding-right: 5px;
+text-align: center;}
   .team-name {
     color: var(--main-txt-cl);
     font-weight: 500;
@@ -279,7 +281,8 @@ font-weight: 900;
         color: var(--secondary-txt-cl);
         font-size: 16px;
         line-height: calc(19/16);
-        letter-spacing: 0.03em;}
+        letter-spacing: 0.03em;
+    text-align: center;}
         /*Portfolio*/
 .portfolio-nav-button {background-color: #F5F4FA;}
 .button-list {
