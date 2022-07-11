@@ -253,6 +253,9 @@ font-weight: 900;
     flex-basis: calc((100% - var(var(--main-gap)) * (var(var(--work-cards)) - 1)) / var(var(--work-cards)));
   }
   img {display: block;}
+  .team-card {
+    background-color: #F5F4FA;
+  }
   .team-card-list
    {display: flex;
     flex-wrap: wrap;
